@@ -1,98 +1,95 @@
 body {
-   margin: 0;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	background-color: #eeeeee;
+	position: relative;
 }
 
-/* Disable ugly boxes around images in IE10 */
-a img {
-   border: 0px;
+#wrapper {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 90px;
+    font-size: 16px;
+    line-height: 1;
+}
+header,section,footer {
+	display:block;
 }
 
-::-moz-selection {
-   background-color: #6ab344;
-   color: #fff;
+header{
+	height: 80px;
+	border-width: 0 0 1px;
+	width: 100%;
+	background: #33333D;
 }
 
-::selection {
-   background-color: #6ab344;
-   color: #fff;
+header img{
+	float: left;
+	margin-left: 120px;
+}
+.main-nav ul{
+	font-family: arial;
+	font-size: 18px;
+	position:absolute;
+	margin-top: 50px;
+	margin-left: 150px;
+	color: #eeeeee;
+	list-style: none;
+}
+ul li{
+	display: inline;
+	padding: 5px;
+}
+.background{
+	clear: both;
+	margin: auto;
+	background-color: #009688;
+	height: 5px;
 }
 
-.own-header .mdl-menu__container {
-   z-index: 50;
-   margin: 0 !important;
+section{
+	background-color: #fff;
+	margin-top:20px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border:2px solid #f5f5f5;
+	border-radius: 10px;
+	moz-border-radius: 10px;
+	webkit-border-radius: 10px;
+}
+section table{
+	position: relative;
+	min-width: 100%;
+	font-family: arial;
+}
+section table tr{
+	font-size: 16px;
+	color: grey;
+}
+section h1{
+	font-weight: 600;
+	font-size: 35px;
+	color: #424242;
+	font-family: arial;
 }
 
-.own-mobile-title {
-   display: none !important;
+footer {
+    height: 80px;
+	min-width:100%;
+    background-color: #33333D;
+	position: absolute;
+	bottom:0;
 }
 
-.own-logo-image {
-   height: 28px;
-   width: 140px;
-}
-
-.own-header {
-   overflow: visible;
-   background-color: white;
-}
-
-.own-header .material-icons {
-   color: #767777 !important;
-}
-
-.own-header .mdl-navigation__link {
-   color: #757575;
-   font-weight: 700;
-   font-size: 14px;
-}
-
-.own-navigation-container {
-   /* Simple hack to make the overflow happen to the left instead... */
-   direction: rtl;
-   order: 1;
-   width: 500px;
-   transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
-      width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.own-navigation {
-   /* ... and now make sure the content is actually LTR */
-   direction: ltr;
-   justify-content: flex-end;
-   width: 800px;
-}
-
-.own-navigation .mdl-navigation__link {
-   display: inline-block;
-   height: 60px;
-   line-height: 68px;
-   background-color: transparent !important;
-   border-bottom: 4px solid transparent;
-}
-
-.own-navigation .mdl-navigation__link::hover {
-   border-bottom: 4px solid #8bc34a;
-}
-
-.own-drawer .own-logo-image {
-   position: absolute;
-   bottom: 16px;
-}
-
-.own-more-button {
-   order: 3;
-}
-
-.own-image-link {
-   text-decoration: none;
-}
-
-.own-link-menu:hover {
-   cursor: pointer;
-}
-
-@media (max-width: 900px) {
-   .own-title {
-      display: none !important;
-   }
+.md-12{
+	text-align: center;
+	position: relative;
+    min-height: 1px;
+    padding-top: 30px;
+	color: #eeeeee;
 }
