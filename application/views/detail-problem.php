@@ -17,12 +17,16 @@
       <link rel="stylesheet" href="<?php echo base_url()?>/assets/css/style.css" />
    </head>
    <body>
+
+      <!-- Section header.  -->
+
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
-         <div class="own-header mdl-layout__header mdl-layout__header--waterfall">
+         <header class="own-header mdl-layout__header mdl-layout__header--waterfall">
             <div class="mdl-layout__header-row">
                <span class="own-title mdl-layout-title">
                   <!--<img class="own-logo-image" src="#"> PS: not yet added. suppose to be my logo -->
+                  <h2>Harusnya logo</h2>
                </span>
 
                <!-- Add a spacer, to align navigation to the right -->
@@ -34,6 +38,8 @@
                      <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Home</a>
                      <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Problem</a>
                      <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contest</a>
+                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Hall of Fame</a>
+                     <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Help</a>
                   </nav>
                </div>
 
@@ -45,11 +51,21 @@
                   <li class="mdl-menu__item">Profile</li>
                   <li class="mdl-menu__item">Logout</li>
                </ul>
-         </div>
+            </div>
+
+         </header>
+      <!-- End section header -->
+
+         <main class="mdl-layout__content">
+            <div class="mdl-grid">
+               <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                  <div class="mdl-card__title content-max-width">
+                     <h2 class="mdl-card__title-text">{Problem Name}</h2>
+                  </div>
+               </div>
+            </div>
+         </main>
       </div>
-
-
-
       <script src="<?php echo base_url()?>assets/js/material.min.js"></script>
    </body>
 </html>

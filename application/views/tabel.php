@@ -3,13 +3,13 @@
 
 <head>
 	<title>TABEL</title>
-	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="<?php echo base_url() ?>/assets/css/style.css" type="text/css"/>
 </head>
 
 <body>
 	<div id="wrapper">
 		<header>
-			<img src="moneykey.png" alt="Header" width="80" height="75" />
+			<img src="<?php echo base_url()?>/assets/images/moneykey.png" alt="Header" width="80" height="75" />
 			<div class="main-nav">
 				<ul>
 					<li>Home</li>
@@ -20,7 +20,7 @@
 			</div>
 			<div class="background"></div>
 		</header>
-		
+
 		<section>
 			<h1>Problems</h1>
 			<table class="problem-table" border=1 cellspacing=0 cellpadding=10>
@@ -129,7 +129,7 @@
 					<td></td>
 					<td></td>
 				</tr>
-				
+
 				<tr>
 					<td>Eight Queens</td>
 					<td>4283</td>
@@ -143,7 +143,7 @@
 					<td></td>
 					<td></td>
 				</tr>
-				
+
 				<tr>
 					<td>Fundamental Neighbors</td>
 					<td>93</td>
@@ -157,7 +157,7 @@
 					<td></td>
 					<td></td>
 				</tr>
-				
+
 				<tr>
 					<td>Fun House</td>
 					<td>335</td>
@@ -171,7 +171,7 @@
 					<td></td>
 					<td></td>
 				</tr>
-				
+
 				<tr>
 					<td>Galaksija</td>
 					<td>10</td>
@@ -185,7 +185,7 @@
 					<td></td>
 					<td></td>
 				</tr>
-				
+
 				<tr>
 					<td>ICPC Tutorial</td>
 					<td>2407</td>

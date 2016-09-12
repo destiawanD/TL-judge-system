@@ -45,7 +45,7 @@ ul li{
 .background{
 	clear: both;
 	margin: auto;
-	background-color: #009688;
+	background-color: #FF9100;
 	height: 5px;
 }
 
@@ -105,7 +105,7 @@ a {
 }
 
 a:hover {
-   
+
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -139,7 +139,15 @@ a img {
 
 .own-header {
    overflow: visible;
-   background-color: black;
+   background-color: white;
+   height: 25px;
+}
+
+.own-header-line {
+   clear: both;
+   margin: auto;
+   background-color: #26A69A;
+   height: 5px;
 }
 
 .own-header .material-icons {
@@ -195,6 +203,11 @@ a img {
 
 .own-link-menu:hover {
    cursor: pointer;
+}
+
+.content-max-width {
+   padding-top: 100px;
+   width: 690px;
 }
 
 @media (max-width: 900px) {
