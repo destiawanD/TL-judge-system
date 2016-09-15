@@ -20,6 +20,9 @@
 
       <!-- Section header.  -->
 
+      <!-- maybe add js -->
+      <div <?php // IDEA:  ?>
+
       <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
          <header class="own-header mdl-layout__header mdl-layout__header--waterfall">
